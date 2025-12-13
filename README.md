@@ -182,13 +182,11 @@ curl -X POST "http://localhost:8000/api/watermark" \
 
 Backend with auto-reload:
 ```bash
-cd backend
 flask --app main run --debug --port 8000
 ```
 
 Or simply:
 ```bash
-cd backend
 python main.py
 ```
 

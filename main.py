@@ -45,9 +45,9 @@ CORS(app)
 
 # Directories
 BASE_DIR = Path(__file__).parent
-UPLOAD_DIR = BASE_DIR / "uploads"
-OUTPUT_DIR = BASE_DIR / "outputs"
 FRONTEND_DIR = BASE_DIR / "frontend"
+UPLOAD_DIR = Path(tempfile.gettempdir()) / "pdf-toolkit-uploads"
+OUTPUT_DIR = Path(tempfile.gettempdir()) / "pdf-toolkit-outputs"
 UPLOAD_DIR.mkdir(exist_ok=True)
 OUTPUT_DIR.mkdir(exist_ok=True)
 

@@ -16,7 +16,7 @@ A comprehensive PDF management system with a modern frontend and powerful Python
 - **Page Numbers** - Add numbering to PDF pages
 - **Watermark** - Stamp text or images on PDF
 - **Unlock PDF** - Remove password protection
-- **Edit PDF** - Add text, images & annotations (NEW!)
+- **Edit PDF** - Add text, images & annotations
 
 ### Conversions
 - **PDF to Word** - Convert PDF to editable DOCX
